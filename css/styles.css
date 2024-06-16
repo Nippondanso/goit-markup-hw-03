@@ -1,0 +1,174 @@
+:root {
+    --iris-color: #4D5AE5;
+    --ocean-color: #404BBF;
+    --navy-blue-color: #2E2F42;
+    --green-color: #31D0AA;
+    --slate-color: #434455;
+    --light-slate-color: #8E8F99;
+    --cornflower-color: #E7E9FC;
+    --cloud-color: #F4F4FD;
+    --light-gray-color: #2E2F4266;
+    --gray-color: #2E2F42;
+    --white-color: #fff;
+    --dairy-color: #FCFCFC;
+
+    --font-weight-bold: 700;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+
+
+    --font-size-base: 16px;
+    --font-size-small: 12px;
+}
+
+.primary {
+    color: var(--iris-color);
+}
+
+.navy {
+    color: var(--navy-blue-color);
+}
+
+.cloud,
+.company-slogan {
+    color: var(--cloud-color);
+}
+
+body {
+    background-color: var(--white-background-color);
+    color: var(--slate-color);
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: var(--font-weight-regular); */
+    /* font-size: var(--font-size-base ); */
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    background-color: var(--white-color);
+}
+
+.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris-color)
+}
+
+nav li {
+    letter-spacing: 0.02em;
+    color: var(--ocean-color);
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--navy-blue-color);
+}
+
+.link {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: var(--navy-blue-color);
+}
+
+.link:hover,
+.link:active,
+.link:focus {
+    color: var(--ocean-color);
+}
+
+.banner-title {
+    color: var(--white-color);
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    text-align: center;
+}
+
+.company-values-title,
+.our-team-title,
+.our-portfolio-title {
+    font-size: 36px;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 0.02em;
+    text-align: center;
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
+.value-title,
+.empoyee-name,
+.our-porfolio-item-title {
+    font-size: 20px;
+    font-weight: var(--font-weight-medium);
+    letter-spacing: 0.02em;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address .link {
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+}
+
+.address .link:hover,
+.address .link:focus,
+.address .link:active {
+    color: var(--ocean-color);
+}
+
+.banner {
+    background-color: var(--navy-blue-color);
+}
+
+
+.banner-button {
+    background: var(--iris-color);
+    font-family: "Roboto", sans-serif;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+.banner-button:hover,
+.banner-button:focus,
+.banner-button:active {
+    background: var(--ocean-color);
+}
+
+.our-team,
+.employee-card {
+    background-color: var(--cloud-color);
+}
+
+footer {
+    background-color: var(--navy-blue-color);
+}
