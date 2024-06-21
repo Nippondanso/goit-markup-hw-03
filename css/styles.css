@@ -83,14 +83,19 @@ body {
     gap: 76px;
 }
 
-.nav,
+.address {
+    display: flex;
+    gap: 40px;
+}
+
+/* .nav,
 .address {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
-}
+} */
 
 
 .primary {
@@ -129,7 +134,7 @@ body {
     gap: 40px;
 }
 
-.nav li {
+.nav-item {
     /* letter-spacing: 0.02em; */
     /* color: var(--ocean-color); */
     padding: 24px 0;
