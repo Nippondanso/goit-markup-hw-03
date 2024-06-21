@@ -32,6 +32,16 @@ img {
     display: block;
 }
 
+.header {
+    /* max-width: 1440px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;
+    border-bottom: 1px solid #e7e9fc
+}
+
 body {
     background-color: var(--white-background-color);
     color: var(--slate-color);
@@ -43,22 +53,24 @@ body {
     background-color: var(--white-color);
 }
 
+.flex {
+    display: flex;
+    align-items: center
+}
+
 .container {
-    max-width: 1440px;
-    padding-left: 155px;
-    padding-right: 155px;
+    margin: 0 auto;
+    width: 1158px;
+    padding: 0 15px;
+
+    /* max-width: 1440px; */
+    /* padding-left: 155px; */
+    /* padding-right: 155px; */
     margin-left: auto;
     margin-right: auto;
 }
 
-.header {
-    /* max-width: 1440px; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 72px;
-    align-items: center;
-}
+
 
 .nav-block {
     display: flex;
@@ -98,6 +110,8 @@ body {
 
 
 .logo {
+    margin-right: 76px;
+
     text-transform: uppercase;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
