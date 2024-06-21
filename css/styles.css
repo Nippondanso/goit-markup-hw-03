@@ -62,12 +62,14 @@ body {
     margin: 0 auto;
     width: 1158px;
     padding: 0 15px;
+    margin: 0 auto;
+    background-color: #31D0AA;
 
     /* max-width: 1440px; */
     /* padding-left: 155px; */
     /* padding-right: 155px; */
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 
@@ -122,9 +124,15 @@ body {
     color: var(--iris-color)
 }
 
-nav li {
-    letter-spacing: 0.02em;
-    color: var(--ocean-color);
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav li {
+    /* letter-spacing: 0.02em; */
+    /* color: var(--ocean-color); */
+    padding: 24px 0;
 }
 
 ul,
