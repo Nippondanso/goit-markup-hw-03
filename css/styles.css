@@ -74,7 +74,8 @@ body {
 
 
 
-.nav-block {
+.nav-block 
+ {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -85,9 +86,16 @@ body {
 
 .address {
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
 }
 
+.address li {
+    margin-right: 40px;
+}
+
+.address li:last-child {
+    margin-right: 0;
+}
 
 
 
