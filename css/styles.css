@@ -84,13 +84,9 @@ body {
     gap: 76px;
 }
 
-.address {
+.address-list {
     display: flex;
     flex-direction: row;
-    
-}
-
-.gap-40{
     gap: 40px;
 }
 
