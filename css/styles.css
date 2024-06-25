@@ -88,14 +88,13 @@ body {
     gap: 40px;
 }
 
- /* .nav, */
-.address {
+.nav-block .address {
     display: flex;
-    /* flex-direction: row;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
     gap: 40px;
-} 
+}
 
 
 .primary {
