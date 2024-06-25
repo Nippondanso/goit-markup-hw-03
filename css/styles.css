@@ -86,16 +86,21 @@ body {
 
 .address {
     display: flex;
-    /* gap: 40px; */
+    flex-direction: row;
+    
 }
 
-.address li {
+.gap-40{
+    gap: 40px;
+}
+
+/* .address li {
     margin-right: 40px;
 }
 
 .address li:last-child {
     margin-right: 0;
-}
+} */
 
 
 
