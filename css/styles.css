@@ -209,18 +209,6 @@ h6 {
     color: var(--ocean-color);
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 
 .company-values-title,
 .our-team-title,
@@ -319,6 +307,7 @@ h6 {
 .our-team-list,
 .our-porfolio-list {
     /* margin-top: 72px; */
+    row-gap: 48px; 
     display: flex;
     flex-direction: row;
     flex-basis: 1;
@@ -391,4 +380,17 @@ footer {
 .company-slogan {
     margin-top: 16px;
     max-width: 264px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
