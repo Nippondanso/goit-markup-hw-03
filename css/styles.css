@@ -60,7 +60,7 @@ body {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    
+
     /* background-color: #31D0AA; */
     display: flex;
     align-items: center;
@@ -209,8 +209,17 @@ h6 {
     color: var(--ocean-color);
 }
 
-.visually-hidden{
-    display: none;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .company-values-title,
@@ -227,7 +236,7 @@ h6 {
 .value-title,
 .empoyee-name,
 .our-porfolio-item-title {
-    /* margin-bottom: 8px;  */
+    margin-bottom: 8px;
     font-size: 20px;
     font-weight: var(--font-weight-medium);
     letter-spacing: 0.02em;
