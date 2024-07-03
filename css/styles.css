@@ -138,19 +138,7 @@ body {
     color: var(--iris-color);
 }
 
-.logo-footer{
-    text-transform: uppercase;
-    text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--iris-color);
 
-    display: inline-block;
-    margin-bottom: 16px; 
-}
 
 .nav {
     display: flex;
@@ -386,6 +374,20 @@ footer {
     padding: 100px 0;
     background-color: var(--navy-blue-color);
 
+}
+
+.logo-footer{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris-color);
+
+    display: inline-block;
+    margin-bottom: 16px; 
 }
 
 .company-slogan {
