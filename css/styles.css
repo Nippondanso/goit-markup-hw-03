@@ -225,6 +225,7 @@ h6 {
 .company-values-title,
 .our-team-title,
 .our-portfolio-title {
+    margin-bottom: 72px; 
     font-size: 36px;
     font-weight: var(--font-weight-bold);
     letter-spacing: 0.02em;
@@ -236,10 +237,15 @@ h6 {
 .value-title,
 .empoyee-name,
 .our-porfolio-item-title {
+    text-align: center; 
     margin-bottom: 8px;
     font-size: 20px;
     font-weight: var(--font-weight-medium);
     letter-spacing: 0.02em;
+}
+
+.emplyee-position{
+    text-align: center;
 }
 
 
@@ -365,7 +371,10 @@ h6 {
     height: 120px;
 }
 
+.empoyee-details{
+    padding: 32px 0;
 
+}
 
 
 
