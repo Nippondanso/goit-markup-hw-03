@@ -209,7 +209,9 @@ h6 {
     color: var(--ocean-color);
 }
 
-
+.visually-hidden{
+    display: none;
+}
 
 .company-values-title,
 .our-team-title,
@@ -225,6 +227,7 @@ h6 {
 .value-title,
 .empoyee-name,
 .our-porfolio-item-title {
+    /* margin-bottom: 8px;  */
     font-size: 20px;
     font-weight: var(--font-weight-medium);
     letter-spacing: 0.02em;
@@ -300,7 +303,7 @@ h6 {
 .company-values-list,
 .our-team-list,
 .our-porfolio-list {
-    margin-top: 72px;
+    /* margin-top: 72px; */
     display: flex;
     flex-direction: row;
     flex-basis: 1;
@@ -308,6 +311,7 @@ h6 {
 }
 
 .value-card {
+    flex-basis: calc((100% - 72px) / 4);
     display: flex;
     flex-direction: column;
     gap: 8px;
