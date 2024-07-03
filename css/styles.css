@@ -53,17 +53,15 @@ body {
     background-color: var(--white-color);
 }
 
-.flex {
-    display: flex;
-    align-items: center
-}
+
 
 .container {
     margin: 0 auto;
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    background-color: #31D0AA;
+    
+    /* background-color: #31D0AA; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -75,10 +73,15 @@ body {
     /* margin-right: auto; */
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
-.nav-block 
- {
+.nav-block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -237,7 +240,7 @@ h6 {
     align-items: center;
     justify-content: center;
     gap: 48px;
-    padding: 188px 0 ;
+    padding: 188px 0;
 }
 
 
