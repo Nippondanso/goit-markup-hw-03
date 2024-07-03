@@ -125,6 +125,7 @@ body {
 
 
 .logo {
+
     margin-right: 76px;
 
     text-transform: uppercase;
@@ -134,7 +135,21 @@ body {
     font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--iris-color)
+    color: var(--iris-color);
+}
+
+.logo-footer{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris-color);
+
+    display: inline-block;
+    margin-bottom: 16px; 
 }
 
 .nav {
@@ -307,7 +322,6 @@ h6 {
 .our-team-list,
 .our-porfolio-list {
     /* margin-top: 72px; */
-    row-gap: 48px; 
     display: flex;
     flex-direction: row;
     flex-basis: 1;
@@ -343,6 +357,7 @@ h6 {
     flex-wrap: wrap;
     justify-content: center;
     flex-basis: 1;
+    row-gap: 48px; 
 }
 
 .our-porfolio-item-card-description {
@@ -368,13 +383,9 @@ h6 {
 
 
 footer {
+    padding: 100px 0;
     background-color: var(--navy-blue-color);
 
-}
-
-.footer-content {
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .company-slogan {
