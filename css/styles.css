@@ -60,24 +60,24 @@ body {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-
-    /* background-color: #31D0AA; */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    /* max-width: 1440px; */
-    /* padding-left: 155px; */
-    /* padding-right: 155px; */
-    /* margin-left: auto; */
-    /* margin-right: auto; */
 }
 
 .flex {
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: space-between;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.flex-align-items {
+    align-items: start;
 }
 
 
@@ -216,7 +216,7 @@ h6 {
 .company-values-title,
 .our-team-title,
 .our-portfolio-title {
-    margin-bottom: 72px; 
+    margin-bottom: 72px;
     font-size: 36px;
     font-weight: var(--font-weight-bold);
     letter-spacing: 0.02em;
@@ -228,14 +228,14 @@ h6 {
 .value-title,
 .empoyee-name,
 .our-porfolio-item-title {
-    text-align: center; 
+    text-align: center;
     margin-bottom: 8px;
     font-size: 20px;
     font-weight: var(--font-weight-medium);
     letter-spacing: 0.02em;
 }
 
-.emplyee-position{
+.emplyee-position {
     text-align: center;
 }
 
@@ -248,7 +248,7 @@ h6 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 48px;
+    /* gap: 48px; */
     padding: 188px 0;
 }
 
@@ -261,6 +261,7 @@ h6 {
     line-height: 1.07;
     text-align: center;
     max-width: 496px;
+    margin-bottom: 48px;
 }
 
 .banner-button {
@@ -345,7 +346,7 @@ h6 {
     flex-wrap: wrap;
     justify-content: center;
     flex-basis: 1;
-    row-gap: 48px; 
+    row-gap: 48px;
 }
 
 .our-porfolio-item-card-description {
@@ -363,7 +364,7 @@ h6 {
     height: 120px;
 }
 
-.empoyee-details{
+.empoyee-details {
     padding: 32px 0;
 
 }
@@ -376,7 +377,8 @@ footer {
 
 }
 
-.logo-footer{
+.logo-footer {
+
     text-transform: uppercase;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
@@ -385,13 +387,14 @@ footer {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--iris-color);
+    margin-bottom: 16px;
+}
 
+.logo-footer-display-block {
     display: inline-block;
-    margin-bottom: 16px; 
 }
 
 .company-slogan {
-    margin-top: 16px;
     max-width: 264px;
 }
 
