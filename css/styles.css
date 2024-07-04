@@ -76,7 +76,7 @@ body {
     flex-direction: column;
 }
 
-.flex-align-items {
+.flex-align-items-start {
     align-items: start;
 }
 
