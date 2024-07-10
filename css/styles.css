@@ -33,12 +33,6 @@ img {
 }
 
 .header {
-    /* max-width: 1440px; */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 72px;
-    align-items: center; */
     border-bottom: 1px solid #e7e9fc
 }
 
@@ -46,8 +40,6 @@ body {
     background-color: var(--white-background-color);
     color: var(--slate-color);
     font-family: 'Roboto', sans-serif;
-    /* font-weight: var(--font-weight-regular); */
-    /* font-size: var(--font-size-base ); */
     line-height: 24px;
     letter-spacing: 0.02em;
     background-color: var(--white-color);
@@ -80,31 +72,15 @@ body {
     align-items: start;
 }
 
-
 .nav-block {
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: space-between; */
     align-items: center;
-    /* list-style: none; */
-    /* gap: 76px; */
 }
 
 .address-list {
     display: flex;
-    /* flex-direction: row; */
     gap: 40px;
 }
-
-/* .address li {
-    margin-right: 40px;
-}
-
-.address li:last-child {
-    margin-right: 0;
-} */
-
-
 
 .primary {
     color: var(--iris-color);
@@ -123,11 +99,8 @@ body {
     background-color: var(--cloud-color);
 }
 
-
 .logo {
-
     margin-right: 76px;
-
     text-transform: uppercase;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
@@ -138,18 +111,10 @@ body {
     color: var(--iris-color);
 }
 
-
-
 .nav {
     display: flex;
     gap: 40px;
 }
-
-/* .nav-item { 
-     letter-spacing: 0.02em; 
-     color: var(--ocean-color); 
-    
- } */
 
 ul,
 ol {
@@ -172,12 +137,7 @@ h6 {
     font-family: 'Roboto', sans-serif;
     color: var(--navy-blue-color);
     margin: 0;
-    /* padding: 0; */
 }
-
-/* p {
-    margin: 0;
-} */
 
 .link {
     display: block;
@@ -213,7 +173,6 @@ h6 {
     color: var(--ocean-color);
 }
 
-
 .company-values-title,
 .our-team-title,
 .our-portfolio-title {
@@ -234,7 +193,7 @@ h6 {
     letter-spacing: 0.02em;
 }
 
-.empoyee-name{
+.empoyee-name {
     text-align: center;
     margin-bottom: 8px;
     font-size: 20px;
@@ -243,7 +202,6 @@ h6 {
 }
 
 .our-porfolio-item-title {
-    /* text-align: center; */
     margin-bottom: 8px;
     font-size: 20px;
     font-weight: var(--font-weight-medium);
@@ -254,19 +212,10 @@ h6 {
     text-align: center;
 }
 
-
-
 .banner {
     background-color: var(--navy-blue-color);
-    /* height: 600px; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* gap: 48px; */
     padding: 188px 0;
 }
-
 
 .banner-title {
     margin: 0 auto;
@@ -282,7 +231,6 @@ h6 {
 
 .banner-button {
     margin: 0 auto;
-
     font-family: "Roboto", sans-serif;
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-base);
@@ -290,17 +238,14 @@ h6 {
     letter-spacing: 0.04em;
     color: var(--white-color);
     text-decoration: none;
-
     background: var(--iris-color);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border: none;
     border-radius: 4px;
     padding: 16px 32px;
-
     display: block;
     min-width: 169px;
     height: 56px;
-
     cursor: pointer;
 }
 
@@ -322,39 +267,20 @@ h6 {
     padding-bottom: 120px;
 }
 
-/* .company-values-title {
-    
-} */
 .company-values-list,
 .our-team-list,
 .our-porfolio-list {
-    /* margin-top: 72px; */
     display: flex;
-    /* flex-direction: row; */
-    /* flex-basis: 1; */
     gap: 24px;
 }
 
 .value-card {
     width: calc((100% - 72px) / 4);
-    /* flex-basis: calc((100% - 72px) / 4); */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 8px; */
 }
 
 .employee-card {
-    /* display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 32px; */
-
     border-radius: 0 0 4px 4px;
-    /* padding: 0px 0px 32px 0px; */
     width: calc((100% - 72px) / 4);
-    /* height: 380px; */
-
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
         0 1px 1px 0 rgba(46, 47, 66, 0.16),
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -369,39 +295,26 @@ h6 {
 }
 
 .our-porfolio-item-card {
-    width: calc( (100%-48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .our-porfolio-item-card-description {
-    /* display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px; */
-
     border-bottom: 1px solid var(--cornflower-color);
     border-left: 1px solid var(--cornflower-color);
     border-right: 1px solid var(--cornflower-color);
     padding: 32px 16px;
-    /* width: 360px; */
-    /* height: 120px; */
 }
 
 .empoyee-details {
     padding: 32px 0;
-
 }
-
-
 
 footer {
     padding: 100px 0;
     background-color: var(--navy-blue-color);
-
 }
 
 .logo-footer {
-
     text-transform: uppercase;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
